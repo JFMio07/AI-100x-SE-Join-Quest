@@ -12,8 +12,16 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class OrderSteps {
     
-    private OrderService orderService;
+    private static OrderService orderService;
     private Order order;
+    
+    public static void setOrderService(OrderService service) {
+        orderService = service;
+    }
+    
+    public static OrderService getOrderService() {
+        return orderService;
+    }
     
     @Given("no promotions are applied")
     public void no_promotions_are_applied() {
@@ -22,15 +30,13 @@ public class OrderSteps {
     
     @Given("the threshold discount promotion is configured:")
     public void the_threshold_discount_promotion_is_configured(DataTable dataTable) {
-        List<Map<String, String>> rows = dataTable.asMaps();
-        Map<String, String> config = rows.get(0);
-        
-        int threshold = Integer.parseInt(config.get("threshold"));
-        int discount = Integer.parseInt(config.get("discount"));
-        
         if (orderService == null) {
             orderService = new OrderService();
         }
+        List<Map<String, String>> rows = dataTable.asMaps();
+        Map<String, String> config = rows.get(0);
+        int threshold = Integer.parseInt(config.get("threshold"));
+        int discount = Integer.parseInt(config.get("discount"));
         orderService.configureThresholdDiscount(threshold, discount);
     }
     
@@ -78,7 +84,23 @@ public class OrderSteps {
         
         if (expected.containsKey("discount")) {
             int expectedDiscount = Integer.parseInt(expected.get("discount"));
-            assertThat(order.getDiscount()).isEqualTo(expectedDiscount);
+            int actualDiscount = order.getThresholdDiscount() > 0 ? order.getThresholdDiscount() : order.getDiscount();
+            assertThat(actualDiscount).isEqualTo(expectedDiscount);
+        }
+        
+        if (expected.containsKey("doubleElevenDiscount")) {
+            int expectedDoubleElevenDiscount = Integer.parseInt(expected.get("doubleElevenDiscount"));
+            assertThat(order.getDoubleElevenDiscount()).isEqualTo(expectedDoubleElevenDiscount);
+        }
+        
+        if (expected.containsKey("subtotalAfterDoubleEleven")) {
+            int expectedSubtotal = Integer.parseInt(expected.get("subtotalAfterDoubleEleven"));
+            assertThat(order.getSubtotalAfterDoubleEleven()).isEqualTo(expectedSubtotal);
+        }
+        
+        if (expected.containsKey("thresholdDiscount")) {
+            int expectedThresholdDiscount = Integer.parseInt(expected.get("thresholdDiscount"));
+            assertThat(order.getThresholdDiscount()).isEqualTo(expectedThresholdDiscount);
         }
     }
     

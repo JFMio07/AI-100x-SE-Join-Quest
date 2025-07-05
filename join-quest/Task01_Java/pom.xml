@@ -69,33 +69,6 @@
                     </properties>
                 </configuration>
             </plugin>
-            
-            <plugin>
-                <groupId>net.masterthought</groupId>
-                <artifactId>maven-cucumber-reporting</artifactId>
-                <version>5.7.7</version>
-                <executions>
-                    <execution>
-                        <id>execution</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>generate</goal>
-                        </goals>
-                        <configuration>
-                            <projectName>Order Pricing System</projectName>
-                            <skip>false</skip>
-                            <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
-                            <inputDirectory>${project.build.directory}/cucumber-reports</inputDirectory>
-                            <jsonFiles>
-                                <param>**/*.json</param>
-                            </jsonFiles>
-                            <mergeFeaturesById>false</mergeFeaturesById>
-                            <mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
-                            <checkBuildResult>true</checkBuildResult>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
         </plugins>
     </build>
 </project> 

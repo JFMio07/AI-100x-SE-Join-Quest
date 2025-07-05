@@ -8,12 +8,18 @@ public class Order {
     private int originalAmount;
     private int discount;
     private int totalAmount;
+    private int doubleElevenDiscount;
+    private int subtotalAfterDoubleEleven;
+    private int thresholdDiscount;
     
     public Order() {
         this.items = new ArrayList<>();
         this.originalAmount = 0;
         this.discount = 0;
         this.totalAmount = 0;
+        this.doubleElevenDiscount = 0;
+        this.subtotalAfterDoubleEleven = 0;
+        this.thresholdDiscount = 0;
     }
     
     public void addItem(OrderItem item) {
@@ -46,6 +52,30 @@ public class Order {
     
     public void setTotalAmount(int totalAmount) {
         this.totalAmount = totalAmount;
+    }
+    
+    public int getDoubleElevenDiscount() {
+        return doubleElevenDiscount;
+    }
+    
+    public void setDoubleElevenDiscount(int doubleElevenDiscount) {
+        this.doubleElevenDiscount = doubleElevenDiscount;
+    }
+    
+    public int getSubtotalAfterDoubleEleven() {
+        return subtotalAfterDoubleEleven;
+    }
+    
+    public void setSubtotalAfterDoubleEleven(int subtotalAfterDoubleEleven) {
+        this.subtotalAfterDoubleEleven = subtotalAfterDoubleEleven;
+    }
+    
+    public int getThresholdDiscount() {
+        return thresholdDiscount;
+    }
+    
+    public void setThresholdDiscount(int thresholdDiscount) {
+        this.thresholdDiscount = thresholdDiscount;
     }
     
     public int getReceivedQuantity(String productName) {

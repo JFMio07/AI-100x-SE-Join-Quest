@@ -1,0 +1,5 @@
+# Created at 2025-07-05T16:53:59.112
+Boot Manifest-JAR contains absolute paths in classpath 'G:\水球潘\AI-100x-SE\AI-100x-SE-Join-Quest\join-quest\Task01_Java\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

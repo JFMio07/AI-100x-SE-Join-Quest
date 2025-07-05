@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.order.CucumberTest" time="1.515" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.order.CucumberTest" time="1.842" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="TW"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\KS\AppData\Local\Temp\surefire17591360454836545791\surefirebooter-20250704190757023_3.jar C:\Users\KS\AppData\Local\Temp\surefire17591360454836545791 2025-07-04T19-07-56_838-jvmRun1 surefire-20250704190757023_1tmp surefire_0-20250704190757023_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\KS\AppData\Local\Temp\surefire5197697729756708785\surefirebooter-20250705171145881_3.jar C:\Users\KS\AppData\Local\Temp\surefire5197697729756708785 2025-07-05T17-11-45_681-jvmRun1 surefire-20250705171145881_1tmp surefire_0-20250705171145881_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="G:\水球潘\AI-100x-SE\AI-100x-SE-Join-Quest\join-quest\Task01_Java\target\test-classes;G:\水球潘\AI-100x-SE\AI-100x-SE-Join-Quest\join-quest\Task01_Java\target\classes;C:\Users\KS\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\KS\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\KS\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\KS\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\KS\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\KS\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\KS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\KS\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\KS\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\KS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\KS\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\KS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-suite\1.10.1\junit-platform-suite-1.10.1.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.1\junit-platform-suite-api-1.10.1.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.1\junit-platform-suite-engine-1.10.1.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.1\junit-platform-suite-commons-1.10.1.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.1\junit-platform-launcher-1.10.1.jar;C:\Users\KS\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\KS\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\KS\AppData\Local\Temp\surefire17591360454836545791\surefirebooter-20250704190757023_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\KS\AppData\Local\Temp\surefire5197697729756708785\surefirebooter-20250705171145881_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21+35-LTS-2513"/>
@@ -50,7 +50,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="MS950"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\KS\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\KS\AppData\Local\Programs\Python\Python312\;C:\Program Files\Java\apache-maven-3.9.10\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Program Files\LINQPad8;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ffmpeg\ffmpeg\bin;C:\yt-dlp;C:\Users\KS\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\KS\AppData\Local\Programs\Python\Python39\;C:\Users\KS\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\KS\AppData\Local\Programs\Python\Python312\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\KS\AppData\Local\Microsoft\WindowsApps;C:\Users\KS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KS\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\KS\AppData\Local\Microsoft\WinGet\Packages\Microsoft.devtunnel_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\KS\AppData\Roaming\Python\Scripts;C:\Users\KS\AppData\Roaming\npm;C:\Users\KS\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\KS\AppData\Local\Programs\cursor\resources\app\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\KS\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\KS\AppData\Local\Programs\Python\Python312\;C:\Program Files\Java\apache-maven-3.9.10\bin;C:\Program Files\Java\jdk-21;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Program Files\LINQPad8;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ffmpeg\ffmpeg\bin;C:\yt-dlp;C:\Users\KS\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\KS\AppData\Local\Programs\Python\Python39\;C:\Users\KS\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\KS\AppData\Local\Programs\Python\Python312\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\KS\AppData\Local\Microsoft\WindowsApps;C:\Users\KS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KS\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\KS\AppData\Local\Microsoft\WinGet\Packages\Microsoft.devtunnel_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\KS\AppData\Roaming\Python\Scripts;C:\Users\KS\AppData\Roaming\npm;C:\Users\KS\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\KS\AppData\Local\Programs\cursor\resources\app\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="MS950"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -58,10 +58,168 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="E-commerce Order Pricing Promotions - Single product without promotions" classname="E-commerce Order Pricing Promotions" time="0.365">
+  <testcase name="Double Eleven Promotion Pricing - Purchase 12 pieces of same product - basic bulk discount" classname="Double Eleven Promotion Pricing" time="0.342">
+    <system-out><![CDATA[
+@double_eleven
+Scenario: Purchase 12 pieces of same product - basic bulk discount &amp#27;[90m# features/double-eleven.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe Double Eleven promotion is active&amp#27;[0m                      &amp#27;[90m# com.order.DoubleElevenSteps.the_double_eleven_promotion_is_active()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m                            &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity | unitPrice |
+    | 襪子          | 12       | 50        |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe order summary should be:&amp#27;[0m                                &amp#27;[90m# com.order.OrderSteps.the_order_summary_should_be(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | totalAmount |
+    | 500         |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe customer should receive:&amp#27;[0m                                 &amp#27;[90m# com.order.OrderSteps.the_customer_should_receive(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity |
+    | 襪子          | 12       |
+]]></system-out>
+  </testcase>
+  <testcase name="Double Eleven Promotion Pricing - Purchase 27 pieces of same product - multiple bulk discounts" classname="Double Eleven Promotion Pricing" time="0.033">
+    <system-out><![CDATA[
+@double_eleven
+Scenario: Purchase 27 pieces of same product - multiple bulk discounts &amp#27;[90m# features/double-eleven.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe Double Eleven promotion is active&amp#27;[0m                          &amp#27;[90m# com.order.DoubleElevenSteps.the_double_eleven_promotion_is_active()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m                                &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity | unitPrice |
+    | 襪子          | 27       | 50        |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe order summary should be:&amp#27;[0m                                    &amp#27;[90m# com.order.OrderSteps.the_order_summary_should_be(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | totalAmount |
+    | 1150        |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe customer should receive:&amp#27;[0m                                     &amp#27;[90m# com.order.OrderSteps.the_customer_should_receive(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity |
+    | 襪子          | 27       |
+]]></system-out>
+  </testcase>
+  <testcase name="Double Eleven Promotion Pricing - Purchase 10 different products - no bulk discount applies" classname="Double Eleven Promotion Pricing" time="0.026">
+    <system-out><![CDATA[
+@double_eleven
+Scenario: Purchase 10 different products - no bulk discount applies &amp#27;[90m# features/double-eleven.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe Double Eleven promotion is active&amp#27;[0m                       &amp#27;[90m# com.order.DoubleElevenSteps.the_double_eleven_promotion_is_active()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m                             &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity | unitPrice |
+    | 商品A         | 1        | 50        |
+    | 商品B         | 1        | 50        |
+    | 商品C         | 1        | 50        |
+    | 商品D         | 1        | 50        |
+    | 商品E         | 1        | 50        |
+    | 商品F         | 1        | 50        |
+    | 商品G         | 1        | 50        |
+    | 商品H         | 1        | 50        |
+    | 商品I         | 1        | 50        |
+    | 商品J         | 1        | 50        |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe order summary should be:&amp#27;[0m                                 &amp#27;[90m# com.order.OrderSteps.the_order_summary_should_be(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | totalAmount |
+    | 500         |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe customer should receive:&amp#27;[0m                                  &amp#27;[90m# com.order.OrderSteps.the_customer_should_receive(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity |
+    | 商品A         | 1        |
+    | 商品B         | 1        |
+    | 商品C         | 1        |
+    | 商品D         | 1        |
+    | 商品E         | 1        |
+    | 商品F         | 1        |
+    | 商品G         | 1        |
+    | 商品H         | 1        |
+    | 商品I         | 1        |
+    | 商品J         | 1        |
+]]></system-out>
+  </testcase>
+  <testcase name="Double Eleven Promotion Pricing - Double Eleven with threshold discount - bulk discount then threshold discount" classname="Double Eleven Promotion Pricing" time="0.033">
+    <system-out><![CDATA[
+@double_eleven
+Scenario: Double Eleven with threshold discount - bulk discount then threshold discount &amp#27;[90m# features/double-eleven.feature:61&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe Double Eleven promotion is active&amp#27;[0m                                           &amp#27;[90m# com.order.DoubleElevenSteps.the_double_eleven_promotion_is_active()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe threshold discount promotion is configured:&amp#27;[0m                                 &amp#27;[90m# com.order.OrderSteps.the_threshold_discount_promotion_is_configured(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | threshold | discount |
+    | 1000      | 100      |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m                                                 &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity | unitPrice |
+    | 襪子          | 12       | 100       |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe order summary should be:&amp#27;[0m                                                     &amp#27;[90m# com.order.OrderSteps.the_order_summary_should_be(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | originalAmount | doubleElevenDiscount | subtotalAfterDoubleEleven | thresholdDiscount | totalAmount |
+    | 1200           | 200                  | 1000                      | 100               | 900         |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe customer should receive:&amp#27;[0m                                                      &amp#27;[90m# com.order.OrderSteps.the_customer_should_receive(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity |
+    | 襪子          | 12       |
+]]></system-out>
+  </testcase>
+  <testcase name="Double Eleven Promotion Pricing - Double Eleven with buy-one-get-one for cosmetics" classname="Double Eleven Promotion Pricing" time="0.032">
+    <system-out><![CDATA[
+@double_eleven
+Scenario: Double Eleven with buy-one-get-one for cosmetics    &amp#27;[90m# features/double-eleven.feature:75&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe Double Eleven promotion is active&amp#27;[0m                 &amp#27;[90m# com.order.DoubleElevenSteps.the_double_eleven_promotion_is_active()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe buy one get one promotion for cosmetics is active&amp#27;[0m &amp#27;[90m# com.order.OrderSteps.the_buy_one_get_one_promotion_for_cosmetics_is_active()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m                       &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | category  | quantity | unitPrice |
+    | 口紅          | cosmetics | 12       | 100       |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe order summary should be:&amp#27;[0m                           &amp#27;[90m# com.order.OrderSteps.the_order_summary_should_be(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | originalAmount | doubleElevenDiscount | totalAmount |
+    | 1200           | 200                  | 1000        |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe customer should receive:&amp#27;[0m                            &amp#27;[90m# com.order.OrderSteps.the_customer_should_receive(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity |
+    | 口紅          | 13       |
+]]></system-out>
+  </testcase>
+  <testcase name="Double Eleven Promotion Pricing - Mixed products with Double Eleven discount" classname="Double Eleven Promotion Pricing" time="0.018">
+    <system-out><![CDATA[
+@double_eleven
+Scenario: Mixed products with Double Eleven discount &amp#27;[90m# features/double-eleven.feature:87&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe Double Eleven promotion is active&amp#27;[0m        &amp#27;[90m# com.order.DoubleElevenSteps.the_double_eleven_promotion_is_active()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m              &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity | unitPrice |
+    | T-shirt     | 5        | 200       |
+    | 襪子          | 15       | 50        |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe order summary should be:&amp#27;[0m                  &amp#27;[90m# com.order.OrderSteps.the_order_summary_should_be(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | totalAmount |
+    | 1650        |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe customer should receive:&amp#27;[0m                   &amp#27;[90m# com.order.OrderSteps.the_customer_should_receive(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity |
+    | T-shirt     | 5        |
+    | 襪子          | 15       |
+]]></system-out>
+  </testcase>
+  <testcase name="Double Eleven Promotion Pricing - Large quantity with multiple bulk discount groups" classname="Double Eleven Promotion Pricing" time="0.022">
+    <system-out><![CDATA[
+@double_eleven
+Scenario: Large quantity with multiple bulk discount groups &amp#27;[90m# features/double-eleven.feature:100&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe Double Eleven promotion is active&amp#27;[0m               &amp#27;[90m# com.order.DoubleElevenSteps.the_double_eleven_promotion_is_active()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m                     &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity | unitPrice |
+    | 襪子          | 35       | 100       |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe order summary should be:&amp#27;[0m                         &amp#27;[90m# com.order.OrderSteps.the_order_summary_should_be(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | totalAmount |
+    | 2900        |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe customer should receive:&amp#27;[0m                          &amp#27;[90m# com.order.OrderSteps.the_customer_should_receive(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity |
+    | 襪子          | 35       |
+]]></system-out>
+  </testcase>
+  <testcase name="Double Eleven Promotion Pricing - Complex scenario with multiple promotions and Double Eleven" classname="Double Eleven Promotion Pricing" time="0.014">
+    <system-out><![CDATA[
+@double_eleven
+Scenario: Complex scenario with multiple promotions and Double Eleven &amp#27;[90m# features/double-eleven.feature:111&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe Double Eleven promotion is active&amp#27;[0m                         &amp#27;[90m# com.order.DoubleElevenSteps.the_double_eleven_promotion_is_active()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe threshold discount promotion is configured:&amp#27;[0m               &amp#27;[90m# com.order.OrderSteps.the_threshold_discount_promotion_is_configured(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | threshold | discount |
+    | 1000      | 100      |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe buy one get one promotion for cosmetics is active&amp#27;[0m           &amp#27;[90m# com.order.OrderSteps.the_buy_one_get_one_promotion_for_cosmetics_is_active()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m                               &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | category  | quantity | unitPrice |
+    | T-shirt     | apparel   | 8        | 200       |
+    | 口紅          | cosmetics | 12       | 100       |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe order summary should be:&amp#27;[0m                                   &amp#27;[90m# com.order.OrderSteps.the_order_summary_should_be(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | originalAmount | doubleElevenDiscount | subtotalAfterDoubleEleven | thresholdDiscount | totalAmount |
+    | 2800           | 200                  | 2600                      | 100               | 2500        |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe customer should receive:&amp#27;[0m                                    &amp#27;[90m# com.order.OrderSteps.the_customer_should_receive(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | productName | quantity |
+    | T-shirt     | 8        |
+    | 口紅          | 13       |
+]]></system-out>
+  </testcase>
+  <testcase name="E-commerce Order Pricing Promotions - Single product without promotions" classname="E-commerce Order Pricing Promotions" time="0.062">
     <system-out><![CDATA[
 @order_pricing
-Scenario: Single product without promotions &amp#27;[90m# order.feature:7&amp#27;[0m
+Scenario: Single product without promotions &amp#27;[90m# features/order.feature:7&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mno promotions are applied&amp#27;[0m           &amp#27;[90m# com.order.OrderSteps.no_promotions_are_applied()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m     &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
     | productName | quantity | unitPrice |
@@ -74,10 +232,10 @@ Scenario: Single product without promotions &amp#27;[90m# order.feature:7&amp#27
     | T-shirt     | 1        |
 ]]></system-out>
   </testcase>
-  <testcase name="E-commerce Order Pricing Promotions - Threshold discount applies when subtotal reaches 1000" classname="E-commerce Order Pricing Promotions" time="0.012">
+  <testcase name="E-commerce Order Pricing Promotions - Threshold discount applies when subtotal reaches 1000" classname="E-commerce Order Pricing Promotions" time="0.016">
     <system-out><![CDATA[
 @order_pricing
-Scenario: Threshold discount applies when subtotal reaches 1000 &amp#27;[90m# order.feature:19&amp#27;[0m
+Scenario: Threshold discount applies when subtotal reaches 1000 &amp#27;[90m# features/order.feature:19&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe threshold discount promotion is configured:&amp#27;[0m         &amp#27;[90m# com.order.OrderSteps.the_threshold_discount_promotion_is_configured(io.cucumber.datatable.DataTable)&amp#27;[0m
     | threshold | discount |
     | 1000      | 100      |
@@ -94,10 +252,10 @@ Scenario: Threshold discount applies when subtotal reaches 1000 &amp#27;[90m# or
     | 褲子          | 1        |
 ]]></system-out>
   </testcase>
-  <testcase name="E-commerce Order Pricing Promotions - Buy-one-get-one for cosmetics - multiple products" classname="E-commerce Order Pricing Promotions" time="0.016">
+  <testcase name="E-commerce Order Pricing Promotions - Buy-one-get-one for cosmetics - multiple products" classname="E-commerce Order Pricing Promotions" time="0.032">
     <system-out><![CDATA[
 @order_pricing
-Scenario: Buy-one-get-one for cosmetics - multiple products   &amp#27;[90m# order.feature:35&amp#27;[0m
+Scenario: Buy-one-get-one for cosmetics - multiple products   &amp#27;[90m# features/order.feature:35&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe buy one get one promotion for cosmetics is active&amp#27;[0m &amp#27;[90m# com.order.OrderSteps.the_buy_one_get_one_promotion_for_cosmetics_is_active()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m                       &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
     | productName | category  | quantity | unitPrice |
@@ -112,10 +270,10 @@ Scenario: Buy-one-get-one for cosmetics - multiple products   &amp#27;[90m# orde
     | 粉底液         | 2        |
 ]]></system-out>
   </testcase>
-  <testcase name="E-commerce Order Pricing Promotions - Buy-one-get-one for cosmetics - same product twice" classname="E-commerce Order Pricing Promotions" time="0.017">
+  <testcase name="E-commerce Order Pricing Promotions - Buy-one-get-one for cosmetics - same product twice" classname="E-commerce Order Pricing Promotions" time="0.013">
     <system-out><![CDATA[
 @order_pricing
-Scenario: Buy-one-get-one for cosmetics - same product twice  &amp#27;[90m# order.feature:49&amp#27;[0m
+Scenario: Buy-one-get-one for cosmetics - same product twice  &amp#27;[90m# features/order.feature:49&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe buy one get one promotion for cosmetics is active&amp#27;[0m &amp#27;[90m# com.order.OrderSteps.the_buy_one_get_one_promotion_for_cosmetics_is_active()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m                       &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
     | productName | category  | quantity | unitPrice |
@@ -128,10 +286,10 @@ Scenario: Buy-one-get-one for cosmetics - same product twice  &amp#27;[90m# orde
     | 口紅          | 3        |
 ]]></system-out>
   </testcase>
-  <testcase name="E-commerce Order Pricing Promotions - Buy-one-get-one for cosmetics - mixed categories" classname="E-commerce Order Pricing Promotions" time="0.028">
+  <testcase name="E-commerce Order Pricing Promotions - Buy-one-get-one for cosmetics - mixed categories" classname="E-commerce Order Pricing Promotions" time="0.009">
     <system-out><![CDATA[
 @order_pricing
-Scenario: Buy-one-get-one for cosmetics - mixed categories    &amp#27;[90m# order.feature:61&amp#27;[0m
+Scenario: Buy-one-get-one for cosmetics - mixed categories    &amp#27;[90m# features/order.feature:61&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe buy one get one promotion for cosmetics is active&amp#27;[0m &amp#27;[90m# com.order.OrderSteps.the_buy_one_get_one_promotion_for_cosmetics_is_active()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma customer places an order with:&amp#27;[0m                       &amp#27;[90m# com.order.OrderSteps.a_customer_places_an_order_with(io.cucumber.datatable.DataTable)&amp#27;[0m
     | productName | category  | quantity | unitPrice |
@@ -146,10 +304,10 @@ Scenario: Buy-one-get-one for cosmetics - mixed categories    &amp#27;[90m# orde
     | 口紅          | 2        |
 ]]></system-out>
   </testcase>
-  <testcase name="E-commerce Order Pricing Promotions - Multiple promotions stacked" classname="E-commerce Order Pricing Promotions" time="0.011">
+  <testcase name="E-commerce Order Pricing Promotions - Multiple promotions stacked" classname="E-commerce Order Pricing Promotions" time="0.0">
     <system-out><![CDATA[
 @order_pricing
-Scenario: Multiple promotions stacked                       &amp#27;[90m# order.feature:75&amp#27;[0m
+Scenario: Multiple promotions stacked                       &amp#27;[90m# features/order.feature:75&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe threshold discount promotion is configured:&amp#27;[0m     &amp#27;[90m# com.order.OrderSteps.the_threshold_discount_promotion_is_configured(io.cucumber.datatable.DataTable)&amp#27;[0m
     | threshold | discount |
     | 1000      | 100      |
