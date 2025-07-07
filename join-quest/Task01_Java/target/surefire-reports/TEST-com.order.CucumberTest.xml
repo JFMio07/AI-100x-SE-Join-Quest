@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.order.CucumberTest" time="1.842" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.order.CucumberTest" time="1.234" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="TW"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\KS\AppData\Local\Temp\surefire5197697729756708785\surefirebooter-20250705171145881_3.jar C:\Users\KS\AppData\Local\Temp\surefire5197697729756708785 2025-07-05T17-11-45_681-jvmRun1 surefire-20250705171145881_1tmp surefire_0-20250705171145881_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\KS\AppData\Local\Temp\surefire69643354214834129\surefirebooter-20250707161848206_3.jar C:\Users\KS\AppData\Local\Temp\surefire69643354214834129 2025-07-07T16-18-47_989-jvmRun1 surefire-20250707161848206_1tmp surefire_0-20250707161848206_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="G:\水球潘\AI-100x-SE\AI-100x-SE-Join-Quest\join-quest\Task01_Java\target\test-classes;G:\水球潘\AI-100x-SE\AI-100x-SE-Join-Quest\join-quest\Task01_Java\target\classes;C:\Users\KS\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\KS\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\KS\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\KS\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\KS\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\KS\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\KS\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\KS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KS\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\KS\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\KS\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\KS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\KS\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\KS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-suite\1.10.1\junit-platform-suite-1.10.1.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.1\junit-platform-suite-api-1.10.1.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.1\junit-platform-suite-engine-1.10.1.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.1\junit-platform-suite-commons-1.10.1.jar;C:\Users\KS\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.1\junit-platform-launcher-1.10.1.jar;C:\Users\KS\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\KS\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\KS\AppData\Local\Temp\surefire5197697729756708785\surefirebooter-20250705171145881_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\KS\AppData\Local\Temp\surefire69643354214834129\surefirebooter-20250707161848206_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21+35-LTS-2513"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Double Eleven Promotion Pricing - Purchase 12 pieces of same product - basic bulk discount" classname="Double Eleven Promotion Pricing" time="0.342">
+  <testcase name="Double Eleven Promotion Pricing - Purchase 12 pieces of same product - basic bulk discount" classname="Double Eleven Promotion Pricing" time="0.233">
     <system-out><![CDATA[
 @double_eleven
 Scenario: Purchase 12 pieces of same product - basic bulk discount &amp#27;[90m# features/double-eleven.feature:10&amp#27;[0m
@@ -74,7 +74,7 @@ Scenario: Purchase 12 pieces of same product - basic bulk discount &amp#27;[90m#
     | 襪子          | 12       |
 ]]></system-out>
   </testcase>
-  <testcase name="Double Eleven Promotion Pricing - Purchase 27 pieces of same product - multiple bulk discounts" classname="Double Eleven Promotion Pricing" time="0.033">
+  <testcase name="Double Eleven Promotion Pricing - Purchase 27 pieces of same product - multiple bulk discounts" classname="Double Eleven Promotion Pricing" time="0.021">
     <system-out><![CDATA[
 @double_eleven
 Scenario: Purchase 27 pieces of same product - multiple bulk discounts &amp#27;[90m# features/double-eleven.feature:21&amp#27;[0m
@@ -90,7 +90,7 @@ Scenario: Purchase 27 pieces of same product - multiple bulk discounts &amp#27;[
     | 襪子          | 27       |
 ]]></system-out>
   </testcase>
-  <testcase name="Double Eleven Promotion Pricing - Purchase 10 different products - no bulk discount applies" classname="Double Eleven Promotion Pricing" time="0.026">
+  <testcase name="Double Eleven Promotion Pricing - Purchase 10 different products - no bulk discount applies" classname="Double Eleven Promotion Pricing" time="0.015">
     <system-out><![CDATA[
 @double_eleven
 Scenario: Purchase 10 different products - no bulk discount applies &amp#27;[90m# features/double-eleven.feature:32&amp#27;[0m
@@ -124,7 +124,7 @@ Scenario: Purchase 10 different products - no bulk discount applies &amp#27;[90m
     | 商品J         | 1        |
 ]]></system-out>
   </testcase>
-  <testcase name="Double Eleven Promotion Pricing - Double Eleven with threshold discount - bulk discount then threshold discount" classname="Double Eleven Promotion Pricing" time="0.033">
+  <testcase name="Double Eleven Promotion Pricing - Double Eleven with threshold discount - bulk discount then threshold discount" classname="Double Eleven Promotion Pricing" time="0.02">
     <system-out><![CDATA[
 @double_eleven
 Scenario: Double Eleven with threshold discount - bulk discount then threshold discount &amp#27;[90m# features/double-eleven.feature:61&amp#27;[0m
@@ -143,7 +143,7 @@ Scenario: Double Eleven with threshold discount - bulk discount then threshold d
     | 襪子          | 12       |
 ]]></system-out>
   </testcase>
-  <testcase name="Double Eleven Promotion Pricing - Double Eleven with buy-one-get-one for cosmetics" classname="Double Eleven Promotion Pricing" time="0.032">
+  <testcase name="Double Eleven Promotion Pricing - Double Eleven with buy-one-get-one for cosmetics" classname="Double Eleven Promotion Pricing" time="0.029">
     <system-out><![CDATA[
 @double_eleven
 Scenario: Double Eleven with buy-one-get-one for cosmetics    &amp#27;[90m# features/double-eleven.feature:75&amp#27;[0m
@@ -160,7 +160,7 @@ Scenario: Double Eleven with buy-one-get-one for cosmetics    &amp#27;[90m# feat
     | 口紅          | 13       |
 ]]></system-out>
   </testcase>
-  <testcase name="Double Eleven Promotion Pricing - Mixed products with Double Eleven discount" classname="Double Eleven Promotion Pricing" time="0.018">
+  <testcase name="Double Eleven Promotion Pricing - Mixed products with Double Eleven discount" classname="Double Eleven Promotion Pricing" time="0.021">
     <system-out><![CDATA[
 @double_eleven
 Scenario: Mixed products with Double Eleven discount &amp#27;[90m# features/double-eleven.feature:87&amp#27;[0m
@@ -178,7 +178,7 @@ Scenario: Mixed products with Double Eleven discount &amp#27;[90m# features/doub
     | 襪子          | 15       |
 ]]></system-out>
   </testcase>
-  <testcase name="Double Eleven Promotion Pricing - Large quantity with multiple bulk discount groups" classname="Double Eleven Promotion Pricing" time="0.022">
+  <testcase name="Double Eleven Promotion Pricing - Large quantity with multiple bulk discount groups" classname="Double Eleven Promotion Pricing" time="0.008">
     <system-out><![CDATA[
 @double_eleven
 Scenario: Large quantity with multiple bulk discount groups &amp#27;[90m# features/double-eleven.feature:100&amp#27;[0m
@@ -194,7 +194,7 @@ Scenario: Large quantity with multiple bulk discount groups &amp#27;[90m# featur
     | 襪子          | 35       |
 ]]></system-out>
   </testcase>
-  <testcase name="Double Eleven Promotion Pricing - Complex scenario with multiple promotions and Double Eleven" classname="Double Eleven Promotion Pricing" time="0.014">
+  <testcase name="Double Eleven Promotion Pricing - Complex scenario with multiple promotions and Double Eleven" classname="Double Eleven Promotion Pricing" time="0.011">
     <system-out><![CDATA[
 @double_eleven
 Scenario: Complex scenario with multiple promotions and Double Eleven &amp#27;[90m# features/double-eleven.feature:111&amp#27;[0m
@@ -216,7 +216,7 @@ Scenario: Complex scenario with multiple promotions and Double Eleven &amp#27;[9
     | 口紅          | 13       |
 ]]></system-out>
   </testcase>
-  <testcase name="E-commerce Order Pricing Promotions - Single product without promotions" classname="E-commerce Order Pricing Promotions" time="0.062">
+  <testcase name="E-commerce Order Pricing Promotions - Single product without promotions" classname="E-commerce Order Pricing Promotions" time="0.016">
     <system-out><![CDATA[
 @order_pricing
 Scenario: Single product without promotions &amp#27;[90m# features/order.feature:7&amp#27;[0m
@@ -232,7 +232,7 @@ Scenario: Single product without promotions &amp#27;[90m# features/order.feature
     | T-shirt     | 1        |
 ]]></system-out>
   </testcase>
-  <testcase name="E-commerce Order Pricing Promotions - Threshold discount applies when subtotal reaches 1000" classname="E-commerce Order Pricing Promotions" time="0.016">
+  <testcase name="E-commerce Order Pricing Promotions - Threshold discount applies when subtotal reaches 1000" classname="E-commerce Order Pricing Promotions" time="0.026">
     <system-out><![CDATA[
 @order_pricing
 Scenario: Threshold discount applies when subtotal reaches 1000 &amp#27;[90m# features/order.feature:19&amp#27;[0m
@@ -252,7 +252,7 @@ Scenario: Threshold discount applies when subtotal reaches 1000 &amp#27;[90m# fe
     | 褲子          | 1        |
 ]]></system-out>
   </testcase>
-  <testcase name="E-commerce Order Pricing Promotions - Buy-one-get-one for cosmetics - multiple products" classname="E-commerce Order Pricing Promotions" time="0.032">
+  <testcase name="E-commerce Order Pricing Promotions - Buy-one-get-one for cosmetics - multiple products" classname="E-commerce Order Pricing Promotions" time="0.007">
     <system-out><![CDATA[
 @order_pricing
 Scenario: Buy-one-get-one for cosmetics - multiple products   &amp#27;[90m# features/order.feature:35&amp#27;[0m
@@ -270,7 +270,7 @@ Scenario: Buy-one-get-one for cosmetics - multiple products   &amp#27;[90m# feat
     | 粉底液         | 2        |
 ]]></system-out>
   </testcase>
-  <testcase name="E-commerce Order Pricing Promotions - Buy-one-get-one for cosmetics - same product twice" classname="E-commerce Order Pricing Promotions" time="0.013">
+  <testcase name="E-commerce Order Pricing Promotions - Buy-one-get-one for cosmetics - same product twice" classname="E-commerce Order Pricing Promotions" time="0.03">
     <system-out><![CDATA[
 @order_pricing
 Scenario: Buy-one-get-one for cosmetics - same product twice  &amp#27;[90m# features/order.feature:49&amp#27;[0m
@@ -304,7 +304,7 @@ Scenario: Buy-one-get-one for cosmetics - mixed categories    &amp#27;[90m# feat
     | 口紅          | 2        |
 ]]></system-out>
   </testcase>
-  <testcase name="E-commerce Order Pricing Promotions - Multiple promotions stacked" classname="E-commerce Order Pricing Promotions" time="0.0">
+  <testcase name="E-commerce Order Pricing Promotions - Multiple promotions stacked" classname="E-commerce Order Pricing Promotions" time="0.008">
     <system-out><![CDATA[
 @order_pricing
 Scenario: Multiple promotions stacked                       &amp#27;[90m# features/order.feature:75&amp#27;[0m
